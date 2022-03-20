@@ -57,7 +57,7 @@ config = {
     'author_email': 'mail@cityscapes-dataset.net',
     'license': 'https://github.com/mcordts/cityscapesScripts/blob/master/license.txt',
     'version': version,
-    'install_requires': ['numpy', 'matplotlib', 'pillow', 'appdirs', 'pyquaternion', 'coloredlogs', 'tqdm', 'typing'],
+    'install_requires': ['numpy', 'matplotlib', 'pillow', 'appdirs', 'pyquaternion', 'coloredlogs', 'tqdm', 'typing', 'tensorflow', 'opencv-python', 'scipy', 'moviepy', 'imageio'],
     'setup_requires': ['setuptools>=18.0'],
     'extras_require': {
         'gui': ['PyQt5']
